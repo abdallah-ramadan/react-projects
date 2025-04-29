@@ -1,7 +1,6 @@
 # 🎯 React Projects
 
-Welcome to my collection of React projects!  
-This repository is meant to showcase my learning and development in React.js.
+This repository contains React.js projects that showcase my learning journey and practical experience with modern web development tools.
 
 ---
 
@@ -9,23 +8,38 @@ This repository is meant to showcase my learning and development in React.js.
 
 ### 1. 🧠 Quiz App
 
-A simple and interactive quiz application built using React.
+A fully responsive and dynamic quiz application built with React.js.  
+It fetches trivia questions from an external API and tracks user progress in real-time.
 
-**Features:**
-- Multiple choice questions
-- Score tracking
-- Dynamic rendering of questions
-- Clean UI with responsive layout
+🔗 **Live Demo:** [quiz-app](https://quiz-app-1689d.web.app/)  
+📡 **API Source:** [Open Trivia DB](https://opentdb.com/)
 
-**Tech Stack:**
-- React
-- CSS (or any styling method used)
-- JavaScript (ES6+)
+---
 
-**Demo:**  
-[Include link here if hosted — e.g., Netlify or GitHub Pages]
+### ⚙️ Features
 
-**How to run it locally:**
+- Fetches quiz questions from an external API (Open Trivia DB)
+- Dynamic multiple-choice question rendering
+- Score tracking and result display
+- Styled with **CSS** and **Bootstrap**
+- Global state management using **React Context API**
+- Uses **Axios** for API calls
+- Clean and responsive user interface
+
+---
+
+### 🛠 Tech Stack
+
+- ⚛️ React.js
+- 🌐 Axios (for API requests)
+- 🎨 CSS & Bootstrap
+- 📦 Context API (state management)
+
+---
+
+### 🚀 Getting Started
+
+To run the project locally:
 
 ```bash
 cd quiz-app
