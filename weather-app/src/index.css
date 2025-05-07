@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(#F5EEFF, #DAC3F8);
+  color: white;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  z-index: 1;
+  overflow: hidden;
+  max-width: 410px;
+  border-radius: 10px;
+  background: linear-gradient(#352163, #33143C);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.95;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: url("./assets/clouds.png");
+}
+
